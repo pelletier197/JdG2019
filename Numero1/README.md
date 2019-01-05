@@ -6,7 +6,7 @@ Le fichier `POST_alien.aln` contient un exemple de contenu POST pour ajouter un 
 Le fichier `GET_alien.aln` contient un exemple de réponse à un GET.
 
 ### Requis pour lancer
-* TODO
+Ouvrir dans pycharm et lancer main.py.
 
 ### Mise en contexte
-* TODO
+Aucune
