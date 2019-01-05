@@ -1,24 +1,4 @@
-# JdG2019
-## Competition Académique Info - Numero 5
+# Effectuer les commandes suivantes
 
-Functionnal programming.
-
-```
-start.sh gre
-grenouille
-nenuphar
-boite
-vinaigre
-```
-
-should return
-```
-grenouille
-vinaigre
-```
-
-### Required to launch
-* TODO
-
-### Explanation
-* TODO
+c(wordFilter).
+wordFilter:filter().
