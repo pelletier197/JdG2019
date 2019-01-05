@@ -46,8 +46,6 @@ def can_walk(i, j, k):
 
 def solve(current_x, current_y, etage_courant, visited, movements):
     visited[etage_courant][current_x][current_y] = True
-    print(visited)
-    print(current_x, current_y, etage_courant)
     if current_x == end_x and current_y == end_y and etage_courant == etage_fin:
         return True, movements
 
@@ -111,6 +109,8 @@ def solve(current_x, current_y, etage_courant, visited, movements):
 
 
 visited = [[[False for j in range(width)] for i in range(height)] for i in range(nb_etages)]
-print(visited)
 
-print(solve(start_x, start_y, etage_debut, visited, []))
+solved, movements = solve(start_x, start_y, etage_debut, visited, [])
+
+with open("solution.txt", "w") as file:
+    file.write(" ".join([str(x) for x in movements]))
