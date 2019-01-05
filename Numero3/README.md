@@ -36,7 +36,7 @@ Actions must be printed in a file with the following format.
 	* Climb down: 6
 
 ### Required to launch
-* TODO
+lancer python3 sur main.py
 
 ### Explanation
 * TODO
