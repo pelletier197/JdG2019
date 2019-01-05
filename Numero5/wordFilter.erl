@@ -10,16 +10,8 @@
 		   {ok, Word} = io:read("Enter a word : "),
 					io:format("The word entered are: ~w~n", 
 						  [Word]),
-			for(X,T2) ->
-				Y = lists:sublist(String, X + 1).
-				if 
-				  lists:member(hd("+"),Word) -> 
-					 io:fwrite("True"); 
-				  true -> 
-					 io:fwrite("False") 
-			    end.
-				
-			[T2|for(X-1,T2)].
+			io:fwrite("True").
+
 		
 	   [Term|for(N-1,Term)]. 
    
